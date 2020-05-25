@@ -13,7 +13,7 @@ class PrototypeTest extends TestCase
     /**
      *
      */
-    public function testBuilderPattern()
+    public function testPrototypePattern()
     {
         $author = new Author("John Smith");
         $page = new Page("Tip of the day", "Keep calm and carry on.", $author);
