@@ -39,6 +39,6 @@ class BuilderTest extends TestCase
             ->limit(10, 20)
             ->getSQL();
 
-        echo $query;
+        echo "\n\n$query";
     }
 }

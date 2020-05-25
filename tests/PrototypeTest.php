@@ -6,8 +6,9 @@ namespace OneSite\DesignPattern\Tests;
 
 use OneSite\DesignPattern\Prototype\Author;
 use OneSite\DesignPattern\Prototype\Page;
+use PHPUnit\Framework\TestCase;
 
-class PrototypeTest
+class PrototypeTest extends TestCase
 {
     /**
      *
@@ -24,7 +25,7 @@ class PrototypeTest
         // ...
 
         $draft = clone $page;
-        echo "Dump of the clone. Note that the author is now referencing two objects.\n\n";
+        echo "\n\nDump of the clone. Note that the author is now referencing two objects.";
         print_r($draft);
 
         return $this->assertTrue(true);
