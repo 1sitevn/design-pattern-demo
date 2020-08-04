@@ -3,11 +3,6 @@
 
 namespace OneSite\DesignPattern\Tests;
 
-
-use OneSite\DesignPattern\ChainOfResponsibility\Base\DogHandler;
-use OneSite\DesignPattern\ChainOfResponsibility\Base\Handler;
-use OneSite\DesignPattern\ChainOfResponsibility\Base\MonkeyHandler;
-use OneSite\DesignPattern\ChainOfResponsibility\Base\SquirrelHandler;
 use OneSite\DesignPattern\ChainOfResponsibility\Example\RoleCheckMiddleware;
 use OneSite\DesignPattern\ChainOfResponsibility\Example\Server;
 use OneSite\DesignPattern\ChainOfResponsibility\Example\ThrottlingMiddleware;
