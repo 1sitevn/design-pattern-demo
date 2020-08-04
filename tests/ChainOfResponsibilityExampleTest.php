@@ -38,7 +38,7 @@ class ChainOfResponsibilityExampleTest extends TestCase
 
         $success = $server->logIn('admin@example.com', 'admin_pass1');
         var_dump($success);
-        $success = $server->logIn('admin@example.com', 'admin_pass');
+        $success = $server->logIn('admin@example.com', 'admin_pass1');
         var_dump($success);
         $success = $server->logIn('admin@example.com', 'admin_pass');
         var_dump($success);
